@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./overlay-prjet.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Anton:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Space Grotesk:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="overlay-prjet">
+      <header class="ai-archie-wrapper">
+        <h1 class="ai-archie">AI Archie</h1>
+      </header>
+      <div class="go-to-website">
+        <div class="branding-parent">
+          <div class="branding">Branding</div>
+          <div class="div">2024</div>
+          <div class="go-to-the" id="popupgoToThe">Go to the website</div>
+        </div>
+      </div>
+      <img class="img-icon" alt="" src="./public/img@2x.png" />
+
+      <section class="chatbot">
+        <div class="developed-a-python">
+          Developed a python chatbot that integrates API to have an ongoing
+          conversation with users, using the open ai API to create an assistant
+          that automatically creates an assistant and message thread model to
+          generate ongoing conversation retrieving and passing data through  the
+          API endpoints. Deploying as web app which serves the same purpose as
+          the known chatgpt. I used both open ai and huggingchat API to
+          implement this theory.
+        </div>
+      </section>
+      <section class="double-image">
+        <div class="double-image-parent">
+          <div class="double-image1">
+            <img class="img-icon1" alt="" src="./public/img-1@2x.png" />
+
+            <img class="img-icon2" alt="" src="./public/img-2@2x.png" />
+          </div>
+          <img
+            class="img-icon3"
+            alt=""
+            src="./public/img-3@2x.png"
+            id="popupimgImage3"
+          />
+        </div>
+      </section>
+      <section class="img-wrapper">
+        <img
+          class="img-icon4"
+          alt=""
+          src="./public/img-4@2x.png"
+          id="popupimgImage4"
+        />
+      </section>
+    </div>
+
+    <script>
+      var popupgoToThe = document.getElementById("popupgoToThe");
+      if (popupgoToThe) {
+        popupgoToThe.addEventListener("click", function () {
+          window.open("https://github.com/Archly2022");
+        });
+      }
+      
+      var popupimgImage3 = document.getElementById("popupimgImage3");
+      if (popupimgImage3) {
+        popupimgImage3.addEventListener("click", function () {
+          window.open("https://github.com/Archly2022/AI-Chatbot");
+        });
+      }
+      
+      var popupimgImage4 = document.getElementById("popupimgImage4");
+      if (popupimgImage4) {
+        popupimgImage4.addEventListener("click", function () {
+          window.open("https://github.com/Archly2022/AI-Chatbot");
+        });
+      }
+      </script>
+  </body>
+</html>
