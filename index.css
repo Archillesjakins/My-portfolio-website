@@ -81,7 +81,7 @@
   color: var(--color-system-niveaux-de-gris-silver);
 }
 .see-projects {
-  position: relative;
+  position: inherit;
   line-height: 140%;
   color: var(--color-black);
   display: inline-block;
@@ -142,7 +142,7 @@
 .welcome-to-my-container1 {
   align-self: stretch;
   height: 316px;
-  flex-shrink: 0;
+  flex-shrink: 3;
 }
 .scroll1 {
   min-width: 42px;
